@@ -1,0 +1,49 @@
+/*firefox why*/
+body {
+    margin: 0;
+}
+
+.landing {
+    background-color: #464646;
+    width: 100%;
+    height: 1080px;
+    color: #ffffff;
+}
+
+.landing__navigation {
+    padding-top: 80px;
+    display: flex;
+    width: 100%;
+}
+
+.navigation__link {
+    width: calc(30%/4);
+    height: 90px;
+    min-width: 70px;
+    background-color: #232323;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.navigation__link--left {
+    padding-left: calc(30%/4);
+}
+
+.navigation__link--right {
+    margin-left: auto;
+}
+
+.landing__headlines {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.headline-container {
+
+}
