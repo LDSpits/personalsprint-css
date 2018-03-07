@@ -6,25 +6,107 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Personalsprint: css styling</title>
         <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
     </head>
     <body>
         <section class="landing">
             <nav class="landing__navigation">
-                <a class="navigation__link navigation__link--left">Link</a>
-                <a class="navigation__link">Link</a>
-                <a class="navigation__link">Link</a>
-                <a class="navigation__link">Link</a>
-                <a class="navigation__link navigation__link--right"></a>
+                <a class="navigation__link navigation__link--left" href="#">Link</a>
+                <a class="navigation__link" href="#">Link</a>
+                <a class="navigation__link" href="#">Link</a>
+                <a class="navigation__link" href="#">Link</a>
+                <a class="navigation__link navigation__link--right" href="#"></a>
             </nav>
             <section class="landing__headlines">
-                <div class="headline-container">
-                    <h1 class="headline-container__headline">Website Headline</h1>
-                    <h3 class="headline-container__subheader">Lorem Ipsum dolor sit amet, consecetur adipising</h3>
+                <div class="headline">
+                    <h1 class="headline__title">Website Headline</h1>
+                    <h3 class="headline__subheader">Lorem Ipsum dolor sit amet, consecetur adipising</h3>
                 </div>
             </section>
         </section>
-        <section></section>
-        <section></section>
+
+        <section class="content">
+            <section class="introduction">
+                <h3 class="introduction__header">introduction</h3>
+                <div class="introduction__left">
+                    <p class="introduction__text"></p>
+                    <p class="introduction__text"></p>
+                </div>
+                <div class="introduction__right">
+                    <p class="introduction__text"></p>
+                    <ul class="introduction__bulletpoints">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="dashboard">
+                <h3 class="dashboard__header">introduction</h3>
+                <div class="dashboard-flow--right">
+                    <div class="dashboard-flow--down">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="dashboard-flow--down">
+                        <div></div>
+                        <div class="dashboard-flow--right">
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sliders">
+                <h3>subheader</h3>
+                <div class="sliders--left">
+                    <div class="slider">
+                        <p>lorem ipsum</p>
+                        <input type="range" name="" id="">
+                    </div>
+                    <div class="slider">
+                        <p>lorem ipsum</p>
+                        <input type="range" name="" id="">
+                    </div>
+                    <div class="slider">
+                        <p>lorem ipsum</p>
+                        <input type="date" name="" id="">
+                    </div>
+                </div>
+                <div class="sliders--right">
+                    <div class="slider">
+                        <p>lorem ipsum</p>
+                        <input type="range" name="" id="">
+                    </div>
+                    <div class="slider">
+                        <p>lorem ipsum</p>
+                        <input type="range" name="" id="">
+                    </div>
+                    <div class="slider">
+                        <p>lorem ipsum</p>
+                        <input type="range" name="" id="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h3>another subtitle</h3>
+                <form action="POST" class="contact__form">
+                    <input class="form__input" type="text" name="name" id="form-name">
+                    <input class="form__input" type="email" name="email" id="form-email">
+                    <input class="form__input" type="text" name="" id="">
+                    <input class="form__input" type="text" name="" id="">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button class="form__sendbutton">send</button>
+                </form>
+            </section>
+        </section>
+
+        <section class="footer">
+
+        </section>
     </body>
 </html>

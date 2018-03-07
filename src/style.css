@@ -26,6 +26,8 @@ body {
     text-align: center;
     vertical-align: middle;
     line-height: 90px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .navigation__link--left {
