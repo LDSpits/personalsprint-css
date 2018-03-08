@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Personalsprint: css styling</title>
         <link rel="stylesheet" href="normalize.css">
-        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <section class="landing">
@@ -15,11 +15,14 @@
                 <a class="navigation__link" href="#">Link</a>
                 <a class="navigation__link" href="#">Link</a>
                 <a class="navigation__link" href="#">Link</a>
-                <a class="navigation__link navigation__link--right" href="#"></a>
+                <div class="navigation__link navigation__link--right"></div>
             </nav>
             <section class="landing__headlines">
                 <div class="headline">
-                    <h1 class="headline__title">Website Headline</h1>
+                    <div class="headline__title">
+                        <h1 class="headline__word headline__word--begin">Website</h1>
+                        <h1 class="headline__word headline__word--end">Headline</h1>
+                    </div>
                     <h3 class="headline__subheader">Lorem Ipsum dolor sit amet, consecetur adipising</h3>
                 </div>
             </section>
@@ -94,13 +97,13 @@
 
             <section class="contact">
                 <h3>another subtitle</h3>
-                <form action="POST" class="contact__form">
-                    <input class="form__input" type="text" name="name" id="form-name">
-                    <input class="form__input" type="email" name="email" id="form-email">
-                    <input class="form__input" type="text" name="" id="">
-                    <input class="form__input" type="text" name="" id="">
+                <form action="POST" class="contact-form">
+                    <input class="contact-form__input" type="text" name="name" id="form-name">
+                    <input class="contact-form__input" type="email" name="email" id="form-email">
+                    <input class="contact-form__input" type="text" name="" id="">
+                    <input class="contact-form__input" type="text" name="" id="">
                     <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <button class="form__sendbutton">send</button>
+                    <button class="contact-form__sendbutton">send</button>
                 </form>
             </section>
         </section>
